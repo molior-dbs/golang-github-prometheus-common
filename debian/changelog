@@ -1,9 +1,10 @@
-golang-github-prometheus-common (0.42.0-2) UNRELEASED; urgency=medium
+golang-github-prometheus-common (0.42.0-3) UNRELEASED; urgency=medium
 
   [ TODO ]
   * Initial release (Closes: TODO)
 
   [ André Roth ]
   * bump version 0.42.0-2
+  * debian: add dependency
 
- -- André Roth <andre.roth@roche.com>  Sat, 18 Mar 2023 19:27:26 +0100
+ -- André Roth <andre.roth@roche.com>  Sat, 18 Mar 2023 19:29:38 +0100
