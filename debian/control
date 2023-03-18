@@ -1,0 +1,33 @@
+Source: golang-github-prometheus-common
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: TODO <TODO>
+Section: golang
+Testsuite: autopkgtest-pkg-go
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-golang,
+               golang-any
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-prometheus-common
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-prometheus-common.git
+Homepage: https://github.com/prometheus/common
+Rules-Requires-Root: no
+XS-Go-Import-Path: github.com/prometheus/common
+
+Package: golang-github-prometheus-common-dev
+Architecture: all
+Depends: ${misc:Depends}
+Description: Go libraries shared across Prometheus components and libraries. (library)
+ Common circleci
+ .
+ This repository contains Go libraries that are shared across
+ Prometheus components and libraries. They are considered
+ internal to Prometheus, without any stability guarantees for
+ external usage.  • assets: Embedding of static assets with gzip
+ support• config: Common configuration structures• expfmt:
+ Decoding and encoding for the exposition format• model: Shared
+ data structures• promlog: A logging wrapper around go-kit/log
+ (https://github.com/go-kit/kit/tree/master/log)• route: A routing
+ wrapper around httprouter (https://github.com/julienschmidt/httprouter)
+ using context.Context• server: Common servers• version: Version
+ information and metrics
