@@ -1,5 +1,9 @@
-golang-github-prometheus-common (0.42.0-1) UNRELEASED; urgency=medium
+golang-github-prometheus-common (0.42.0-2) UNRELEASED; urgency=medium
 
+  [ TODO ]
   * Initial release (Closes: TODO)
 
- -- TODO <TODO>  Sat, 18 Mar 2023 18:24:53 +0000
+  [ André Roth ]
+  * bump version 0.42.0-2
+
+ -- André Roth <andre.roth@roche.com>  Sat, 18 Mar 2023 19:27:26 +0100
